@@ -1,0 +1,375 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F50EF352-EA03-4342-90C7-51F30A5AF5F7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>AminoGenius1</RootNamespace>
+    <AssemblyName>AminoGenius1</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Alanin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Alanin.Designer.cs">
+      <DependentUpon>Alanin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Arjinin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Arjinin.Designer.cs">
+      <DependentUpon>Arjinin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Asparajin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Asparajin.Designer.cs">
+      <DependentUpon>Asparajin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Aspartikasit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Aspartikasit.Designer.cs">
+      <DependentUpon>Aspartikasit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AminoGenius.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AminoGenius.Designer.cs">
+      <DependentUpon>AminoGenius.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Besindeğeri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Besindeğeri.Designer.cs">
+      <DependentUpon>Besindeğeri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fenilalanin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fenilalanin.Designer.cs">
+      <DependentUpon>Fenilalanin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Glisin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Glisin.Designer.cs">
+      <DependentUpon>Glisin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Glütamikasit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Glütamikasit.Designer.cs">
+      <DependentUpon>Glütamikasit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Glütamin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Glütamin.Designer.cs">
+      <DependentUpon>Glütamin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Histidin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Histidin.Designer.cs">
+      <DependentUpon>Histidin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kendinyap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kendinyap.Designer.cs">
+      <DependentUpon>Kendinyap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lizin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lizin.Designer.cs">
+      <DependentUpon>Lizin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lösin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lösin.Designer.cs">
+      <DependentUpon>Lösin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Metiyonin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Metiyonin.Designer.cs">
+      <DependentUpon>Metiyonin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nekadar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nekadar.Designer.cs">
+      <DependentUpon>Nekadar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Neyimeksik.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Neyimeksik.Designer.cs">
+      <DependentUpon>Neyimeksik.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Prolin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prolin.Designer.cs">
+      <DependentUpon>Prolin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Serin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Serin.Designer.cs">
+      <DependentUpon>Serin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sistein.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sistein.Designer.cs">
+      <DependentUpon>Sistein.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tirozin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tirozin.Designer.cs">
+      <DependentUpon>Tirozin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Treonin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Treonin.Designer.cs">
+      <DependentUpon>Treonin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Triptofan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Triptofan.Designer.cs">
+      <DependentUpon>Triptofan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Valin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Valin.Designer.cs">
+      <DependentUpon>Valin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="İzolösin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="İzolösin.Designer.cs">
+      <DependentUpon>İzolösin.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Alanin.resx">
+      <DependentUpon>Alanin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AminoGenius.resx">
+      <DependentUpon>AminoGenius.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Arjinin.resx">
+      <DependentUpon>Arjinin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Asparajin.resx">
+      <DependentUpon>Asparajin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Aspartikasit.resx">
+      <DependentUpon>Aspartikasit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Besindeğeri.resx">
+      <DependentUpon>Besindeğeri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fenilalanin.resx">
+      <DependentUpon>Fenilalanin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Glisin.resx">
+      <DependentUpon>Glisin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Glütamikasit.resx">
+      <DependentUpon>Glütamikasit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Glütamin.resx">
+      <DependentUpon>Glütamin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Histidin.resx">
+      <DependentUpon>Histidin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kendinyap.resx">
+      <DependentUpon>Kendinyap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lizin.resx">
+      <DependentUpon>Lizin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lösin.resx">
+      <DependentUpon>Lösin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Metiyonin.resx">
+      <DependentUpon>Metiyonin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nekadar.resx">
+      <DependentUpon>Nekadar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Neyimeksik.resx">
+      <DependentUpon>Neyimeksik.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prolin.resx">
+      <DependentUpon>Prolin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Serin.resx">
+      <DependentUpon>Serin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sistein.resx">
+      <DependentUpon>Sistein.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tirozin.resx">
+      <DependentUpon>Tirozin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Treonin.resx">
+      <DependentUpon>Treonin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Triptofan.resx">
+      <DependentUpon>Triptofan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Valin.resx">
+      <DependentUpon>Valin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="İzolösin.resx">
+      <DependentUpon>İzolösin.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1b28648da01d6e92f6e66c038206b344.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aminoasit-nedir-proteinler-ne-ise-yarar-aminoasitler-bir-araya-gelerek-proteinleri-nasil-olusturur-101528-20230713.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bulasici-hastaliklar-banner-768x356-2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\besin-ogeleri-1280x720.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maxresdefault.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\L-Alanin_-_L-Alanine.svg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Arginin_-_Arginine.svg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\L-und_D-Asparagin_V1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\L-und_D-Asparaginsäure_V1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Phenylalanin%28L-und_D-Phenylalanin%29_V1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\150px-Glycin_-_Glycine.svg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\120px-L-glutamic-acid-skeletal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\L-und_D-Glutamin_V1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\L-und_D-Histidin_V1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\L-und_D-İsoleucin_V1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\L-und_D-Lysin_V1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\L-und_D-Leucin_V1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\L-und_D-Methionin_V1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\L-und_D-Prolin_V1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\350px-L-Serin_-_L-Serine.svg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\L-und_D-Cystein_V1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tyrosin_%28L-und_D-Tyrosin%29_V1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\L-und_D-Threonin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Valin_%282-Amino-3-methyl-butansäure%29_V1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\863914_Thumb_400.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
